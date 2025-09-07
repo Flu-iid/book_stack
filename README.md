@@ -35,6 +35,7 @@ graph TB
     CB[Python Cookbook]
     DP[Python Design Pattern]
     F[Fluent Python]
+    MLM[Mathematics for machine learning]
 
     PCC --> JZ
     JZ --> ML
@@ -42,6 +43,7 @@ graph TB
     SCH --> DP
     DP --> CB
     CB --> F
+    ML -.-> MLM
 
 
 ```
